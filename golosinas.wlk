@@ -1,4 +1,4 @@
-object bombon inherits Name (precio 5) {
+object bombon inherits Name (precio = 5) {
     var property peso = 15
     var property sabor = 'Frutilla'
     var property gluten = false
@@ -152,5 +152,5 @@ object tutti {
 }
 
 class Name {
-    var precio
+    var property precio
 }
